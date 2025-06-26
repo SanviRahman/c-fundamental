@@ -68,7 +68,13 @@ int main()
     result2=lastSearch(n,arr,search_value);
 
 
-    frq=(result2-result1)+1;
-    cout<<"Number of Frequency is:"<<frq<<endl;
+    frq=result2-result1;
+    if(frq!=){
+        cout<<"Number of Frequency is:"<<frq<<endl;
+    }
+    else{
+        cout<<"Invalid search value."<<endl;
+    }
+
     return 0;
 }
